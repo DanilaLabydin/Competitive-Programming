@@ -12,11 +12,11 @@ import (
 func main() {
 	str := "I"
 	times := 5
-	result := RepeatStr(str, times)
+	result := RepeatStr(times, str)
 	fmt.Println(result)
 }
 
-func RepeatStr(repetitions int, value str) string {
+func RepeatStr(repetitions int, value string) string {
 	var result string
 	for i := 0; i < 5; i++ {
 		result += value
